@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Koulen', 'cursive', 'Poppins', sans-serif,Verdana, 'interstate regular comp';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color:rgb(255, 251, 251);
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+}
+
+/* start: global style rules */
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, label, strong {
+    line-height: 2;
+    font-size: 0.85em;
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 9px 20px;
+    color: #eee;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.badge.new {
+    background-color: #3e0f45;
+}
+
+.badge.strategy {
+    background-color: #4EAE60;
+}
+
+.badge.racing {
+    background-color: #694EAE;
+}
+
+.badge.rpg,
+.badge.adventure {
+    background-color: #40ABF5;
+}
+
+
+
+.shade {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+/* end: global style rules */
+
+/* start: header styles */
+header {
+    /* Style the header */
+     background-color:#111;
+     padding: 0.1px;
+     text-align: center;
+   }
+   
+   /* Style the top navigation bar */
+   .topnav {
+     overflow: hidden;
+     background-color: #111;
+   }
+   
+   /* Style the topnav links */
+   .topnav a {
+     float: left;
+     display: block;
+     color: #eee;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+ /* Change color on hover */
+ .topnav a:hover {
+  background-color: #111;
+  color: #111;
+}
+/* end: header styles */
+
+/* start: hero styles */
+#hero-image {
+    background: url('../media/different_things-1300x731.jpg') top center no-repeat;
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-marketing-text h1 {
+    
+    max-width: 500px;
+    margin: -30px auto 0;
+    position: absolute;
+    top: 80%;
+    left: 100;
+    right: 100;
+    padding: 0 20px;
+    color: #eee;
+    font-size: 6em;
+    font-weight: 300;
+    margin: 0.5em 0;
+   
+}
+
+
+
+
+
+
+/* end: hero styles */
+
+/* start: latest news styles */
+#latest-news {
+    margin-bottom: 75px;
+}
+
+#latest-news .flex {
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: 0;
+}
+
+#latest-news .flex h5 {
+    flex-basis: 25%;
+    background-color: #361616;
+    padding: 25px;
+    margin: 0;
+    text-align: right;
+    color: #eee;
+    font-size: 1.2em;
+}
+
+#latest-news-container {
+    background-color: #131313;
+    position: relative;
+    flex-basis: 75%;
+    padding: 25px;
+}
+
+#latest-news-container .badge {
+    margin-right: 20px;
+}
+
+#latest-news-container .latest-news-text {
+    color: #eee;
+}
+/* end: latest news styles */
+
+/* start: game types styles */
+#game-Characters-boxes {
+    margin-bottom: 75px;
+
+}
+#game-Characters-boxes h1 {
+    text-align: center;
+    margin-bottom: 1.65em;
+    color: #111;
+}
+
+#game-Characters-boxes .box {
+    flex-basis: 25%;
+    position: relative;
+    height: 380px;
+}
+
+#game-Characters-boxes .box.new {
+    background: url('../media/Jesse Faden.png') top center no-repeat;
+    background-size: cover;
+}
+
+#game-Characters-boxes .box.strategy {
+    background: url('../media/Ahti.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+#game-Characters-boxes .box.rpg {
+    background: url('../media/The Board.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+#game-Characters-boxes .box.racing {
+    background: url('../media/Dylan Faden.png') top center no-repeat;
+    background-size: cover;
+}
+
+#game-Characters-boxes .box .badge {
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+#game-Characters-boxes .box .contents {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 0;
+    color: #eee;
+    padding: 0 35px 0 25px;
+}
+
+#game-Characters-boxes .box .contents a {
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #999;
+}
+/* end: game types styles */
+#Game-overview{
+    background-image: url('https://controlgame.com/wp-content/themes/controltheme/images/bg_about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    background-position: center;
+    padding-bottom: 50px;
+    color: #fff;
+    position: relative;
+    text-align: center; 
+  
+
+}
+
+
+
+/* end: recent games styles */
+
+
+footer{
+    position: relative;
+    bottom: 50;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+
+
+
+   
+
+   
+
+/* end: media queries */

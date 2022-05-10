@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Koulen', 'cursive', 'Poppins', sans-serif,Verdana, 'interstate regular comp';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body {
+  background-color:rgb(255, 251, 251);
+  font-family: 'helvetica', 'sans-serif';
+  margin: 0;
+}
+
+/* start: global style rules */
+
+
+.flex {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+
+.badge {
+  padding: 9px 20px;
+  color: #eee;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+
+
+
+
+
+
+
+
+.shade {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* end: global style rules */
+/* start: header styles */
+header {
+  /* Style the header */
+   background-color:#111;
+   padding: 0.1px;
+   text-align: center;
+ }
+ 
+ /* Style the top navigation bar */
+ .topnav {
+   overflow: hidden;
+   background-color: #111;
+ }
+ 
+ /* Style the topnav links */
+ .topnav a {
+   float: left;
+   display: block;
+   color: #eee;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+/* Change color on hover */
+.topnav a:hover {
+background-color: #111;
+color: #111;
+}
+/* end: header styles */
+
+
+p {
+  font-family: Verdana,sans-serif;
+  font-size: 12px;
+  letter-spacing: .5px;
+  line-height: 16px;
+}
+#home {
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  background-image: url('https://controlgame.com/wp-content/themes/controltheme/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 15% top 0px;
+}
+#home .content {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: absolute;
+  left: 55%;
+  top: 0;
+  height: 85vh;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 2;
+ 
+}
+#home .fullheight {
+  min-height: 100vh;
+  overflow: hidden;
+}
+#home .content .contentbox .controllogo {
+  width: 75%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#home img {
+  border: 0;
+}
+#home .social_icons a img {
+  transition: .5s all;
+}
+#home img {
+  border: 0;
+}
+#home .content .contentbox p {
+  margin: 10px auto;
+  width: 80%;
+}
+
+#home .content .contentbox {
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  padding-top: 150px;
+}
+#home .content .contentbox p {
+  margin: 10px auto;
+  width: 80%;
+}
+#home .content .contentbox .platform_logos {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'interstate regular comp',sans-serif;
+  text-transform: uppercase;
+}
+#home .content .contentbox .merch_area p {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'interstate regular comp',sans-serif;
+  text-transform: uppercase;
+}
+#home .content .contentbox p {
+  margin: 10px auto;
+  width: 80%;
+}
+#home .content .contentbox .platform_logos {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'interstate regular comp',sans-serif;
+  text-transform: uppercase;
+}
+#home .platform_logos {
+  margin: 0 0 10px 0;
+}
+p {
+  font-family: Verdana,sans-serif;
+  font-size: 12px;
+  letter-spacing: .5px;
+  line-height: 16px;
+
+}
+#home .descrip {
+  color: #fff;
+}
+#home .content .contentbox .awards_area img {
+  max-width: 130px;
+}
+#home .content .contentbox .buttonset a {
+  margin: 5px;
+}
+#home .content .contentbox .merch_area a {
+  color: red;
+}
+a {
+  color: #444;
+  text-decoration: none;
+}
+a {
+  background: 0 0;
+}
+#home .button {
+  border: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  margin: 0 5px;
+  display: inline-block;
+  font-family: 'interstate regular comp',helvetica,arial,sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  transition: all .5s;
+  cursor: pointer;
+  background: #000;
+  
+}
+
+
+/* start: recent games styles */
+#recent-games {
+    background: url('../media/bg_news.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+#recent-games.fullheight {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#recent-games h1 {
+  text-align: center;
+}
+#recent-games .newsblock {
+  background-color: #000;
+  color: #fff;
+  height: 100%;
+}
+#recent-games .box {
+  position: relative;
+  flex-basis: 31%;
+  background-color: #fff;
+}
+
+#recent-games .box .badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+#recent-games  .newsblock h3 {
+  margin: 15px auto;
+  width: 90%;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+#recent-games .newsblock date {
+  width: 90%;
+  padding: 5px 0;
+  margin: 0 auto;
+  font-size: 11px;
+  font-family: akzidenzgrotesklight,sans-serif;
+  display: block;
+}
+#recent-games .newsblock p {
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+p {
+  font-family: Verdana,sans-serif;
+    letter-spacing: .5px;
+    line-height: 16px;
+}
+
+#recent-games .newsblock {
+  background-color: #000;
+  color: #fff;
+  height: 100%;
+}
+/* end: recent games styles */
+
+
+/* end: recent games styles */
+
+
+footer{
+  position: relative;
+  bottom: 50;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+
+#form h1{
+  text-align: center;
+}
+.form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+}
+.form-style .required{
+  color:red;
+}
+.form-style input[type=submit], .form-style input[type=reset]{
+  background: #4eb5f1;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style .field-textarea{
+  height: 100px;
+}
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+}
+.form-style .long{
+  width: 100%;
+}
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style textarea:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+}
