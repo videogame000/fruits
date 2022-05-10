@@ -1,4 +1,29 @@
-body {
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #111;
+z-index:1; 
+position:absolute;
+font-size:20px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+margin:2px;
+height:20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #111;
+} body {
     background: url("../media/homepage-hero-cloudx-stinger-core-wireless-lg.jpg"); 
     background-attachment: fixed;
     background-size: cover;
@@ -46,10 +71,11 @@ ul li a:hover {
 }
 
 .search{
-    width: 330px;
+    width: 270px;
+ 
     float: left;
-    margin-left: 270px;
-    padding-top: 25px;
+    margin-left: 0px;
+    padding-top: 5px;
 
 }
 
@@ -58,7 +84,7 @@ ul li a:hover {
     width: 200px;
     height: 40px;
     border: 1px solid #ff7200;
-    margin-top: 13px ;
+    margin-top: 2px ;
     font-size: 16px;
     color: black;
     float: left;
@@ -71,10 +97,12 @@ ul li a:hover {
     height: 40px;
     background: #ff7200;
     border: 2px solid #ff7200;
-    margin-top: 13px;
+    margin-top: 0px;
     color: rgb(255, 255, 255);
     font-size: 17px;
     border-radius: 5px;
+margin:3px;
+
 }
 .btn:hover{
     color: black;
