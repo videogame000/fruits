@@ -165,16 +165,15 @@ footer{
     color: #DB3F66 ;
 }
 
-
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 100px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   position:relative;
-  left:600px;
+  left:700px;
 }
 
 .fa:hover {
