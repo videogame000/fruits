@@ -15,8 +15,9 @@ font-size:20px;
   text-align: center;
   padding: 8px 10px;
   text-decoration: none;
-margin:2px;
-height:20px;
+  margin:2px;
+  height:20px;
+  font-family: fantasy;
 }
 
 /* Change color on hover */
@@ -71,12 +72,9 @@ ul li a:hover {
 }
 
 .search{
-    width: 270px;
- 
     float: left;
     margin-left: 0px;
     padding-top: 5px;
-
 }
 
 .srch{
