@@ -22,7 +22,13 @@
   <a href="#">Volrant</a>
   <a href="lol.html">League of legends</a>
   <a href="chracters.html">Spiderman</a>
-</div>
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Search</i></button>
+    </form>
+  </div>
+  </div>
 
 <h2> The Most Important characters</h2></b>
 
@@ -89,27 +95,26 @@
     <area target="_blank" alt="Greasy grove" title="Greasy grove" href="https://fortnite-archive.fandom.com/wiki/Greasy_Grove#:~:text=Greasy%20Grove%20(Formerly%20a%20Frozen,and%20southeast%20of%20Snobby%20Shores." coords="226,381,279,453,157,551,86,473" shape="poly">
     <area target="_blank" alt="Tilted tower" title="Tilted tower" href="https://fortnite-archive.fandom.com/wiki/Tilted_Towers" coords="271,308,345,355,312,412,277,451,226,372" shape="poly">
 </map>
+<form action="/action_page.php" class="form1">
 <fieldset>
-<h2>Feedback Form</h2>
-<button class="open-button" onclick="openForm()">Open Form</button>
+<h2><i>FEEDBACK</i></h2>
+<div class="input-container">
+    <input class="input-field" type="text" placeholder="First Name" name="fname">
+  </div>
 
-<div class="form-popup" id="myForm">
-  <form action="GET" class="form-container">
-    <h1>Feedback</h1>
-
-    <label for="first name"><b>First Name</b></label>
-    <input type="text" placeholder="Enter first name" name="fname" required>
-
-    <label for="Last Name"><b>Last Name</b></label>
-    <input type="text" placeholder="Enter last name" name="lname" required>
-     <label for="Feedback"><b>Feedback</b></label>
-    <input type="text" placeholder="Enter Feedback" name="Feedback" required>
-
-    <button type="submit" class="btn">submit</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  <div class="input-container">
+     <input class="input-field" type="text" placeholder="Last Name" name="lname">
+  </div>
+<div class="input-container">
+   <textarea style="color:black; name="subject" placeholder="Write your feedback here.."></textarea>
+  
+</div>
+    <button type="submit" class="btn">Submit</button>
   </form>
 </div>
 </fieldset>
+
+
 
 <form method="GET" class="form1"> 
 <fieldset>
@@ -137,17 +142,14 @@
 <fieldset>
   <h2>LOGIN FORM</h2>
   <div class="input-container">
-    <i class="fa fa-user icon"></i>
     <input class="input-field" type="text" placeholder="Username" name="usrnm">
   </div>
 
   <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
     <input class="input-field" type="text" placeholder="Email" name="email">
   </div>
   
   <div class="input-container">
-    <i class="fa fa-key icon"></i>
     <input class="input-field" type="password" placeholder="Password" name="psw">
   </div>
 <button type="submit" class="btn">login</button>
@@ -163,7 +165,7 @@
 
 <p style="float:left">PLAY GAMES is the global authority on PLAY GAMES. We've been covering PC gaming for more than 20 years, and continue that legacy today with worldwide print editions and around-the-clock news, features, esports coverage, hardware testing, and game reviews on pcgamer.com, as well as the annual PC Gaming Show at E3.  </p>
 </div>
-<a href="#" class="fa fa-facebook">f</a>
+<a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-instagram"></a>
   </footer>
