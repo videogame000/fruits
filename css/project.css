@@ -1,4 +1,4 @@
-  ul {
+   ul {
 
   
   padding: 0;
@@ -26,10 +26,54 @@ font-size:21px;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 13px 15px;
+  padding: 13px 15.5px;
   text-decoration: none;
 margin:7px;
 }
+.search{
+   height:50px;
+    top:250%;
+    width: 283px;
+    position:absolute;
+    left:78%;
+    margin-left: 0px;
+    padding-top: 5px;
+    background: black;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    border: 1px solid #80ff80;
+    margin-top: 2px ;
+    font-size: 16px;
+    color: black;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.btn {
+    height: 40px;
+    background: #80ff80;
+    border: 2px solid #80ff80;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 5px;
+margin:3px;
+
+}
+.btn:hover{
+    color: black;
+}
+
+
+ .srch:focus {
+     outline: none;
+ }
 
 /* Change color on hover */
 .topnav a:hover {
