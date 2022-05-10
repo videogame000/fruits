@@ -1,6 +1,5 @@
-<style>
 body{
-  background-image: url("https://i.pinimg.com/originals/51/f5/d1/51f5d1478715e8c9fb2cba8d0a4f32e3.jpg");
+        background-image: url("https://i.pinimg.com/originals/51/f5/d1/51f5d1478715e8c9fb2cba8d0a4f32e3.jpg");
      background-repeat: no-repeat;
      background-size: 3040px;
      justify-content: center;
@@ -115,10 +114,10 @@ input[type=submit]:hover {
   background-color: #000000;
   padding: 20px;
   border: 2px solid rgb(6, 255, 238) ;
-  margin: 2% 1%;
+  padding: 14px 20px;
+  margin: 8px 0;
   width: 60%;
   height: 270px;
-  padding: 12px 20px;
   box-sizing: border-box;
   
 }
@@ -200,8 +199,8 @@ footer{
   background: #111;
   height: auto;
   width: fit-content;
- margin-left: 15%;
- margin-right: 10%;
+text-align: center;
+width: 880px;
   padding-top: 40px;
   color: #fff;
 
@@ -243,15 +242,14 @@ footer{
   opacity: 0.7;
 }
 .fa-facebook{
-  background: #3b5998;
+  background: #0b46c5;
   color:white;
 }
 .fa-twitter{
   background: #55acee;
   color: white;
 }
-.fa-instgram{
-  background: black;
-  color: white;
+.fa-instagram{
+  background: #8d00f9;
+  color: rgb(255, 255, 255);
 }
-</style>
