@@ -218,6 +218,9 @@ a {
   background: #000;
   
 }
+#home a:hover {
+  color: hotpink;
+}
 
 
 /* start: recent games styles */
