@@ -224,18 +224,7 @@ p{
 .agent-content .line{
     margin-bottom: 50px;
 }
-.agent-content p{
-    color:white;
-    font-size:x-large;
-    font-style: italic;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 50px;
-  
-    
-    
-}
+
 .agent-content .ctn{
     margin-top: 40px;
 }
