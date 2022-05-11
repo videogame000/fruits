@@ -113,8 +113,57 @@
                     <button style="color:white ;" type="button" onclick='document.getElementById("demo").innerHTML = "She is a duelist"'>Click Me!</button> 
                                       
                                     </div>
-                            </div>
+                   
+        
+        
+        </div>
     </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="row">
+  <div class="column">
+    <img src="https://images7.alphacoders.com/108/thumb-1920-1086711.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images5.alphacoders.com/119/thumb-1920-1195020.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images3.alphacoders.com/108/thumb-1920-1081932.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images7.alphacoders.com/108/thumb-1920-1081933.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+
+		<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
     <hr>
     <div class="holdingcontainer">
         <div class="internalcontainerl"><h1 style="color: white">DUELISTS</h1><img src="../media/valorantimg.jpg" width="100%" >Duelists are “self-sufficient fraggers,” according to Riot's official description. They're the agents that create some of the most impact, offering aggression to a team comp. A Duelist should be expected to seek out engagements and frag, may that be finding the opening pick or clutching out a round.
