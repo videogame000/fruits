@@ -13,13 +13,7 @@ ul{
 body , html{
     overflow-x: hidden;
 }
-/* Style the header */
-.header {
-    background-color:#DB3F66;
-    padding: 0.1px;
-    text-align: center;
-  }
-  
+ 
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
