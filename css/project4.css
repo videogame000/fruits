@@ -9,11 +9,7 @@ a{
 ul{
     list-style: none;
 }
-.active {
-    color: #fc036b;
-    text-decoration: underline;
-    font-weight: bold;
-}
+
 body , html{
     overflow-x: hidden;
 }
