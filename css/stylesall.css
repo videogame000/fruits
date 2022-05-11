@@ -290,7 +290,36 @@ p {
 
 
 /* end: recent games styles */
+.media-con {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('../bg_trailer.jpg');
+  position: relative;
+  display: block;
+  overflow: hidden;
 
+}
+.media-con video{
+    width: 750px;
+    height: 422px;
+    left: 0px;
+    top: 0px;
+     object-fit : contain;
+}
+
+
+div.center {
+  text-align: center;
+}
+.media-con h2 {
+  color: #ea000c;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  
+}
 
 footer{
   position: relative;
