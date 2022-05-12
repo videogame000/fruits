@@ -356,6 +356,12 @@ footer{
 }
 
 
+h2 {
+  font-family: interstate regular comp,sans-serif!important;
+
+}
+
+
 .wrapper{
   background: linear-gradient(to right, #3f1d1d, #070707);
 	min-height: 100vh;
@@ -437,3 +443,4 @@ footer{
 	color: #f74040;
 	display: none;
 }
+
