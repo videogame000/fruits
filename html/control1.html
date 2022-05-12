@@ -119,52 +119,36 @@ AVAILABLE NOW ON STEAM, PS5, PS4, XBOX SERIES X|S, XBOX ONE, NINTENDO SWITCH, GO
     </div>
 </div>
 </section>
-<section id="form" class="contact">
-<h1>Contact form</h1>
-      <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
-         <table class="form-style">
-            <tr>
-               <td>
-                  <label>
-                     Your name <span class="required">*</span>
-                  </label>
-               </td>
-               <td>
-                  <input type="text" name="name" class="long"/>
-                  <span class="error" id="errorname"></span>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <label>
-                    Your email address <span class="required">*</span>
-                  </label>
-               </td>
-               <td>
-                  <input type="email" name="email" class="long"/>
-                  <span class="error" id="erroremail"></span>
-               </td>
-            </tr>
-            <tr>
-               <td>
-                  <label>
-                     Message <span class="required">*</span>
-                  </label>
-               </td>
-               <td>
-                  <textarea name="message" class="long field-textarea"></textarea>
-                  <span class="error" id="errormsg"></span>
-               </td>
-            </tr>
-            <tr>
-               <td></td>
-               <td>
-                  <input type="submit" value="Send">      
-                  <input type="reset" value="Reset"> 
-               </td>
-            </tr>
-         </table>
+<div class="wrapper">
+	<div class="form">
+		<div class="title">
+			Login To Play Games
+		</div>
+		<form method="post" action="successpage.html" onsubmit="return validation();">
+			<div class="input_wrap">
+				<label for="input_text">Email or Username</label>
+				<div class="input_field">
+					<input type="text" class="input" id="input_text">
+				</div>
+			</div>
+			<div class="input_wrap">
+				<label for="input_password">Password</label>
+				<div class="input_field">
+					<input type="password" class="input" id="input_password">
+				</div>
+			</div>
+			<div class="input_wrap">
+				<span class="error_msg">Incorrect username or password. Please try again</span>
+				<input type="submit" id="login_btn" class="btn disabled" value="Login">
+			</div>
+            
+		</form>
+	</div>
+</div>
+
+<script src="try.js"></script>
       </form>
+                       
                        
             </main>
     
