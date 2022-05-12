@@ -30,14 +30,22 @@
                 <li><a href="https://store.playstation.com/en-ca/product/UP9000-CUSA02299_00-MARVELSSMGOTY000">buy</a></li>
                 <li><a href="tel:+20155503112" target="_blank">call us</a></li>
                <li><button style="margin-left: 20px;" class="btn" id="dark" onclick="colors()">themes</button></li>
+                <button id="blue">B</button>
+               <button id="black">D</button>
+               <button id="blue">B</button>
             </ul>
-            <script>
-              let color = document.querySelector ('.b');
-               function colors(color){
-                   b.style.background-image.url = https://i.pinimg.com/564x/4b/59/d5/4b59d5c3c5cbb4bb0a30fb48a533a29c.jpg;
-               }
-                                
-              
+           <script>
+
+                let body = document.querySelector('body');
+                document.querySelector('#red').addEventListener('click', function() {
+                     body.style.background = 'red' ;
+                });
+                document.querySelector('#black').addEventListener('click', function() {
+                    body.style.background ='black';
+                });
+                document.querySelector('#blue').addEventListener('click', function() {
+                    body.style.background ='blue'
+                }); 
             </script>
             
           </nav>        
